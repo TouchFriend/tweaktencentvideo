@@ -6,7 +6,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = tweaktencentvideo
 
-tweaktencentvideo_FILES = Tweak.x
+tweaktencentvideo_FILES = src/Tweak.x src/HomeAd.x src/LaunchAd.x src/VideoDetailAd.x
 # tweaktencentvideo_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
