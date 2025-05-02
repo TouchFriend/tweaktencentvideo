@@ -5,13 +5,6 @@
 
 @end
 
-/*
-QMTADVideoView -> QNBUAVideoDetailViewController
-QMTADFrameView -> QNBUAVideoDetailViewController
-QNBUADetailPlayerContainerView -> QNBUAVideoDetailViewController
-
-*/
-
 
 // 视频详情页
 // 视频暂停广告
@@ -32,8 +25,6 @@ QNBUADetailPlayerContainerView -> QNBUAVideoDetailViewController
 
 %end
 
-
-// 全屏广告
 
 // 未成年人弹窗
 %hook VBTeenGuardianNewStyleAlertView
