@@ -28,3 +28,21 @@
 }
 
 %end
+
+// 流量卡全屏弹窗
+%hook QNBUAFloatRootViewController
+
+- (id)init {
+	return nil;
+}
+
+%end
+
+// App升级弹窗
+%hook QLAppUpgradeAlertView
+
+- (id)initWithTxt:(id)txt cancelblock:(id)cancelblock confirmblock:(id)confirmblock {
+	return nil;
+}
+
+%end
